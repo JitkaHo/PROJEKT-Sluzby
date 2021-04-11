@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #8b8b8b;
+}
+
+/* hlavní obrázek*/
+.travel {
+  max-width: 350px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/*hlavička Happy Travels*/
+
+h1 {
+  font-size: 28px;
+  color: #000000;
+  margin: 0;
+}
+
+.obdelnik {
+  background-color: #407bff;
+  width: 60px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+.specializace p {
+  margin: 30px auto;
+}
+
+.button-pohoda,
+.button-dobroduzstvi {
+  padding: 11px 30px;
+  display: block;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-width: max-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+}
+.button-dobroduzstvi {
+  background-color: #8b8b8b;
+}
+.button-pohoda {
+  background-color: #407bff;
+}
+
+h2 {
+  color: #000000;
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+/*služby*/
+
+section {
+  max-width: 460px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.karticka {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px #407bff1f;
+  margin: 15px auto;
+}
+
+section img {
+  width: 45px;
+  margin: 20px;
+}
+
+.karticka p {
+  padding: 32px 20px 20px 0px;
+  font-size: 13px;
+  text-align: left;
+  margin: 0;
+}
+
+.popisek {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
