@@ -152,3 +152,79 @@ section img {
     margin-top: 80px;
   }
 }
+
+/*PC*/
+@media screen and (min-width: 1100px) {
+  body {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hlavicka {
+    display: flex;
+    text-align: left;
+    margin-bottom: 80px;
+    padding-top: 40px;
+  }
+
+  .travel {
+    width: 425px;
+    margin: auto 30px auto auto;
+    order: 2;
+    flex-basis: 490px;
+  }
+  .specializace {
+    order: 1;
+    align-self: center;
+    margin: auto 30px auto auto;
+    flex-basis: 490px;
+  }
+
+  .obdelnik {
+    margin-left: 0;
+  }
+
+  .button-dobroduzstvi {
+    margin-left: 0;
+  }
+
+  /*Služby*/
+  .sluzby {
+    display: flex;
+    margin-bottom: 80px;
+  }
+  .services {
+    order: 2;
+    margin-left: 0;
+  }
+  .agency {
+    order: 1;
+    margin-right: 60px;
+  }
+
+  .kontejner {
+    flex-basis: 550px;
+  }
+
+  .text {
+    flex-basis: 430px;
+  }
+
+  .karticka p {
+    padding: 20px 15px 40px 15px;
+  }
+
+  /* oddíl delegáti*/
+  .delegati {
+    display: flex;
+  }
+
+  .delegates {
+    margin-right: 60px;
+  }
+
+  .onspot {
+    margin-left: 0;
+  }
+}
